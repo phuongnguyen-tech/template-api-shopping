@@ -22,6 +22,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       return;
     }
 
+    post.lastSeenAt = new Date();
+
     res.status(200).json({
       post,
     });

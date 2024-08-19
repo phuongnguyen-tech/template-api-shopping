@@ -238,5 +238,6 @@ export const _posts = [...Array(19)].map((_, index) => {
       name: _mock.fullName(index),
       avatarUrl: _mock.image.avatar(index),
     })),
+    lastSeenAt: new Date(),
   };
 });
