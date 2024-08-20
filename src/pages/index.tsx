@@ -278,6 +278,15 @@ export default function IndexPage() {
       />
       <Block
         method="GET"
+        description="Get product details by name"
+        path={
+          <>
+            /api/product/details?name=<strong>{`{name}`}</strong>
+          </>
+        }
+      />
+      <Block
+        method="GET"
         description="Search product"
         path={
           <>
