@@ -281,7 +281,7 @@ export default function IndexPage() {
         description="Get product details by name"
         path={
           <>
-            /api/product/details?name=<strong>{`{name}`}</strong>
+            /api/product/getByName?name=<strong>{`{name}`}</strong>
           </>
         }
       />
